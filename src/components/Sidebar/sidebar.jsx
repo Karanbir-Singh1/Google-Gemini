@@ -1,7 +1,7 @@
 import React,{useContext, useState} from 'react';
 import './sidebar.css'
 import { assets } from '../../assets/assets'
-import { Context } from '../../context/context'
+import { Context } from '../../Context/Context'
 const Sidebar = () => {
 
     const[extended,setExtended] = useState(false);
